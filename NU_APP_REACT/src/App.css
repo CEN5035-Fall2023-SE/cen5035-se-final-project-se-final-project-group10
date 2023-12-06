@@ -1,0 +1,146 @@
+.App {
+  text-align: center;
+}
+
+html {background-color: #f2f2f2}
+
+.nu_logo{
+  border: 20px solid #1976d2;
+  background-color: #1976d2;
+  margin-top:250px;
+  margin-left: 100px;
+  font-size: 85px;
+  border-radius: 2px;
+  color: white;
+  height: fit-content;
+  font-family: 'Impact', 'Arial Narrow', Arial, sans-serif;
+}
+
+.loginLayout{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.loginFieldsBox{
+  border: 2px solid #1976d2;
+  margin-top:250px;
+  margin-right: 100px;
+  width: 350px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.inputField{
+  width: 270px;
+}
+
+.MenuButton{
+  width: 150px;
+}
+
+.MenuButton:focus {
+  border-bottom: 3px solid white;
+}
+
+.TAApplyForm{
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 750px;
+  flex-direction: column;
+}
+
+.DateRange{
+  display: flex;
+  flex-direction: row;
+  vertical-align: center;
+  align-items: center;
+  width: 100%
+}
+
+.DateSeperator{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.PriorExperienceFields{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+.ExperienceSection{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 250px;
+}
+
+.offersAccordionContainer{
+  width: 900px;
+  margin: auto;
+  margin-top: 45px;
+}
+
+
+/*ADMIN STYLING*/
+
+.AdminCourses{
+  display: flex;
+  justify-content: space-evenly;
+  max-height: 750px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.searchWithStatus{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: auto;
+
+}
+
+.applicationsAccoridionContainer{
+  margin: auto;
+  max-width: 75%;
+  display: block;
+  padding-top: 15px;
+}
+
+.feedbackaccordionBody{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 150px;
+}
+
+.accordionBody{
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+}
+
+.accoridionBodyRow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.fieldLabel{
+  margin-right: 30px;
+}
+
+.applicantSearchFields{
+  display: flex;
+  justify-content: space-evenly;
+}
